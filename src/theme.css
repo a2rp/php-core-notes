@@ -1,0 +1,68 @@
+/* theme.css */
+/* PHP Core Notes Theme - PHP Purple */
+
+:root {
+    /* Base */
+    --color-bg: #0b0d14;
+    --color-surface: #141827;
+    --color-surface-2: #1b2233;
+
+    /* Primary Accent - PHP Purple */
+    --color-primary: #777bb4;
+    --color-primary-hover: #8d91c7;
+
+    /* Text */
+    --color-text-primary: #e9edf6;
+    --color-text-secondary: #c7cfdd;
+    --color-text-muted: #8a93a3;
+
+    /* Borders */
+    --color-border: #2a3246;
+    --color-border-light: #3a4560;
+
+    /* Links */
+    --color-link: #777bb4;
+    --color-link-hover: #9aa0d6;
+
+    /* States */
+    --color-success: #22c55e;
+    --color-error: #ef4444;
+    --color-warning: #f59e0b;
+
+    /* Code blocks - Dark IDE style */
+    --color-code-bg: #0f1320;
+    --color-code-border: #2a3246;
+
+    /* Shadow */
+    --color-shadow: rgba(0, 0, 0, 0.65);
+}
+
+/* Light Mode - Clean Professional Style */
+
+html[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-surface: #f6f7fb;
+    --color-surface-2: #eceff7;
+
+    --color-primary: #5b5fa6;
+    --color-primary-hover: #777bb4;
+
+    --color-text-primary: #111827;
+    --color-text-secondary: #374151;
+    --color-text-muted: #6b7280;
+
+    --color-border: #d7dbe6;
+    --color-border-light: #e7eaf2;
+
+    --color-link: #5b5fa6;
+    --color-link-hover: #777bb4;
+
+    --color-success: #15803d;
+    --color-error: #b91c1c;
+    --color-warning: #a16207;
+
+    --color-code-bg: #f3f4fb;
+    --color-code-border: #d7dbe6;
+
+    --color-shadow: rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,24 @@
+{
+    "name": "css-core-notes",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
+        "deploy": "npx gh-pages -d dist -b gh-pages"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^5.5.0",
+        "styled-components": "^6.1.18"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "vite": "^6.2.0",
+        "gh-pages": "^6.1.1"
+    }
+}
