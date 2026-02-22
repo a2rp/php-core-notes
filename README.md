@@ -7,6 +7,8 @@ It focuses on clarity, backend fundamentals, forms and sessions, database basics
 
 ---
 
+![alt text](image.png)
+
 ---
 
 ## Purpose
