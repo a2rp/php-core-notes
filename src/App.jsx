@@ -1,8 +1,7 @@
-// App.jsx
-import React from "react";
 import { Styled } from "./App.styled";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import AboutPhp from "./components/aboutPhp";
 import PhpFundamentals from "./topics/phpFundamentals";
@@ -29,16 +28,15 @@ import DeploymentBasics from "./topics/deploymentBasics";
 import PerformanceBasics from "./topics/performanceBasics";
 import TestingBasics from "./topics/testingBasics";
 
-const App = () => {
+export default function App() {
     return (
         <Styled.Wrapper>
             <Styled.Header>
                 <Header />
             </Styled.Header>
-            <Styled.Main>
+            <Styled.Main id="notes-scroll">
                 <div className="contentWrapper">
                     <AboutPhp />
-
                     <PhpFundamentals />
                     <PhpDataTypes />
                     <Operators />
@@ -63,13 +61,11 @@ const App = () => {
                     <PerformanceBasics />
                     <TestingBasics />
                 </div>
-
                 <div className="footerWrapper">
                     <Footer />
                 </div>
             </Styled.Main>
+            <ScrollToTop />
         </Styled.Wrapper>
     );
-};
-
-export default App;
+}

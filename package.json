@@ -8,7 +8,8 @@
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
-        "deploy": "npx gh-pages -d dist -b gh-pages"
+        "deploy": "npx gh-pages -d dist -b gh-pages",
+        "lint": "eslint ."
     },
     "dependencies": {
         "react": "^18.2.0",
@@ -17,8 +18,13 @@
         "styled-components": "^6.1.18"
     },
     "devDependencies": {
+        "@eslint/js": "^10.0.1",
         "@vitejs/plugin-react": "^4.3.4",
-        "vite": "^6.2.0",
-        "gh-pages": "^6.1.1"
+        "eslint": "^10.11.0",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.7",
+        "gh-pages": "^6.1.1",
+        "globals": "^17.12.0",
+        "vite": "^6.2.0"
     }
 }
