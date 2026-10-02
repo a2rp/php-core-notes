@@ -29,7 +29,7 @@ export const Styled = {
             overflow: hidden;
             border: 1px solid var(--color-border-light);
             border-radius: 12px;
-            background: #05070c;
+            background: #070707;
             img { width: 100%; height: 100%; object-fit: contain; transition: opacity 180ms ease; }
             .logoSkeleton { position: absolute; inset: 0; background: var(--color-surface-2); }
         }

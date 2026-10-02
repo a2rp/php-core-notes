@@ -3,35 +3,35 @@
 
 :root {
     /* Base */
-    --color-bg: #0b0d14;
-    --color-surface: #141827;
-    --color-surface-2: #1b2233;
+    --color-bg: #0d0d0d;
+    --color-surface: #191919;
+    --color-surface-2: #222222;
 
     /* Primary Accent - PHP Purple */
-    --color-primary: #777bb4;
-    --color-primary-hover: #8d91c7;
+    --color-primary: #7f7f7f;
+    --color-primary-hover: #959595;
 
     /* Text */
-    --color-text-primary: #e9edf6;
-    --color-text-secondary: #c7cfdd;
-    --color-text-muted: #8a93a3;
+    --color-text-primary: #ededed;
+    --color-text-secondary: #cecece;
+    --color-text-muted: #929292;
 
     /* Borders */
-    --color-border: #2a3246;
-    --color-border-light: #3a4560;
+    --color-border: #323232;
+    --color-border-light: #454545;
 
     /* Links */
-    --color-link: #777bb4;
-    --color-link-hover: #9aa0d6;
+    --color-link: #7f7f7f;
+    --color-link-hover: #a3a3a3;
 
     /* States */
-    --color-success: #22c55e;
-    --color-error: #ef4444;
-    --color-warning: #f59e0b;
+    --color-success: #acacac;
+    --color-error: #848484;
+    --color-warning: #b1b1b1;
 
     /* Code blocks - Dark IDE style */
-    --color-code-bg: #0f1320;
-    --color-code-border: #2a3246;
+    --color-code-bg: #131313;
+    --color-code-border: #323232;
 
     /* Shadow */
     --color-shadow: rgba(0, 0, 0, 0.65);
@@ -41,28 +41,28 @@
 
 html[data-theme="light"] {
     --color-bg: #ffffff;
-    --color-surface: #f6f7fb;
-    --color-surface-2: #eceff7;
+    --color-surface: #f7f7f7;
+    --color-surface-2: #efefef;
 
-    --color-primary: #5b5fa6;
-    --color-primary-hover: #777bb4;
+    --color-primary: #666666;
+    --color-primary-hover: #7f7f7f;
 
-    --color-text-primary: #111827;
-    --color-text-secondary: #374151;
-    --color-text-muted: #6b7280;
+    --color-text-primary: #181818;
+    --color-text-secondary: #404040;
+    --color-text-muted: #727272;
 
-    --color-border: #d7dbe6;
-    --color-border-light: #e7eaf2;
+    --color-border: #dbdbdb;
+    --color-border-light: #eaeaea;
 
-    --color-link: #5b5fa6;
-    --color-link-hover: #777bb4;
+    --color-link: #666666;
+    --color-link-hover: #7f7f7f;
 
-    --color-success: #15803d;
-    --color-error: #b91c1c;
-    --color-warning: #a16207;
+    --color-success: #6f6f6f;
+    --color-error: #5e5e5e;
+    --color-warning: #707070;
 
-    --color-code-bg: #f3f4fb;
-    --color-code-border: #d7dbe6;
+    --color-code-bg: #f4f4f4;
+    --color-code-border: #dbdbdb;
 
     --color-shadow: rgba(0, 0, 0, 0.08);
 }
